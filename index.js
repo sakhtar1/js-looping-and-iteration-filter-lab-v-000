@@ -6,6 +6,6 @@ function findMatching (driver, string) {
   });
 }
 
-function fuzzyMatch (driver, string) {
+function fuzzyMatch (drivers, string) {
   return drivers.filter(driver => driver.slice(0, name.length) === name)
 }
