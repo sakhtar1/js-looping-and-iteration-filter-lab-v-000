@@ -9,4 +9,5 @@ function findMatching (driver, string) {
 function fuzzyMatch (driver, string) {
   return driver.filter(function (dName) {
     return dName.slice(0, string.length) === dName;
+    });
 }
