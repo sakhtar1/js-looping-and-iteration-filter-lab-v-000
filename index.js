@@ -3,5 +3,5 @@
 function findMatching (driver, string) {
   return driver.filter(function (dName) {
     return dName.toLowerCase() === string.toLowerCase();
-  }):
+  });
 }
